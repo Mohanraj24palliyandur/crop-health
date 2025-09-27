@@ -1,0 +1,12 @@
+streamlit
+folium
+streamlit-folium
+pillow
+numpy
+pandas
+matplotlib
+seaborn
+gtts
+deep-translator
+tensorflow
+opencv-python

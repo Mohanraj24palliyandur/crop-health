@@ -1,0 +1,26 @@
+def display_footer():
+    """Display helpful information and emergency contacts"""
+    st.markdown("---")
+    st.markdown("### 📞 Need Help?")
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("""
+        **Kisan Call Center**
+        - Toll Free: 1800-180-1551
+        - Available 24/7
+        """)
+    
+    with col2:
+        st.markdown("""
+        **Weather Updates**
+        - SMS Service: Text 'WEATHER' to 51969
+        - Download Kisan Suvidha App
+        """)
+    
+    with col3:
+        st.markdown("""
+        **Emergency Contacts**
+        - Agricultural Extension Officer
+        - Local Krishi Vigyan Kendra
+        """)
